@@ -1,4 +1,4 @@
-#This is a codility challenge, and I got gold award.
+#This is a codility challenge, and I got golden award.
 #Here is the link to my award page:
 #https://app.codility.com/cert/view/certMS4YQA-ZE3FTH4ST49YCHMY/
 
