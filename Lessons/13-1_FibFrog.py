@@ -1,13 +1,10 @@
 def solution(A):
     l=len(A)
-    fib=[1,1]
+    fib=[1,2]
     while fib[-1]<=l:
         fib.append(fib[-1]+fib[-2])
-    fib=set(fib)
-    canGo={l}
-    for i in range(l):
-        if A[i]:
-            canGo.add(i)
+    canGo={i for i in range(l) if A[i]}
+    canGo.add(l)
     step, on=0, {-1}
     while True:
         step+=1
