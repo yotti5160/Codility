@@ -17,6 +17,5 @@ def solution(A):
             return -1
         if l in nextOn:
             return step
-        canGo=canGo-nextOn
         on=nextOn
     return -1
