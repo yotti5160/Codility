@@ -9,7 +9,7 @@ def solution(A):
         if A[i]:
             canGo.add(i)
     step, on=0, {-1}
-    while canGo:
+    while True:
         step+=1
         nextOn=set()
         for nowPoint in on:
