@@ -1,3 +1,5 @@
+# Award link: https://app.codility.com/cert/view/cert4URQR8-RBY9NCWXXFUPUCK6/
+
 import collections
 def solution(N, Q, B, C):
     l=len(B)
