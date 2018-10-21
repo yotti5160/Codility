@@ -1,4 +1,4 @@
-# Award link: https://app.codility.com/cert/view/certGEKB38-5CPBXQTN83SAXHXF/
+# Award link: https://app.codility.com/cert/view/cert646E5S-D4UKRMYFRHPH26Q2/
 
 def solution(A):
     def containZero(A):
@@ -8,19 +8,8 @@ def solution(A):
                     return True
         return False
     def vecPlus(x, y):
-        return [x[0]+y[0], x[1]+y[1], x[2]+y[2]]
-    def vecPlus2(x, y):
         return [x[0]+y[0], x[1]+y[1]]
     def small(x, y):
-        if x[2]>0:
-            return x
-        if y[2]>0:
-            return y
-        xc, yc=min(x[0], x[1]), min(y[0], y[1])
-        if xc<=yc:
-            return x
-        return y
-    def small2(x, y):
         xc, yc=min(x[0], x[1]), min(y[0], y[1])
         if xc<=yc:
             return x
@@ -55,15 +44,15 @@ def solution(A):
         dp=[[0]*l for _ in range(l)]
         tmp=[0,0]
         for i in range(l):
-            tmp=vecPlus2(tmp, A[0][i])
+            tmp=vecPlus(tmp, A[0][i])
             dp[0][i]=tmp
         tmp=[0,0]
         for i in range(l):
-            tmp=vecPlus2(tmp, A[i][0])
+            tmp=vecPlus(tmp, A[i][0])
             dp[i][0]=tmp
         for i in range(1,l):
             for j in range(1,l):
-                dp[i][j]=small2(vecPlus2(dp[i-1][j], A[i][j]), vecPlus2(dp[i][j-1], A[i][j]))
+                dp[i][j]=small(vecPlus(dp[i-1][j], A[i][j]), vecPlus(dp[i][j-1], A[i][j]))
         if min(dp[-1][-1][0], dp[-1][-1][1])==0:
             return 0
         return 1
@@ -72,17 +61,15 @@ def solution(A):
         for j in range(l):
             A[i][j]=trans(A[i][j])
     dp=[[0]*l for _ in range(l)]
-    tmp=[0,0,0]
+    tmp=[0,0]
     for i in range(l):
         tmp=vecPlus(tmp, A[0][i])
         dp[0][i]=tmp
-    tmp=[0,0,0]
+    tmp=[0,0]
     for i in range(l):
         tmp=vecPlus(tmp, A[i][0])
         dp[i][0]=tmp
     for i in range(1,l):
         for j in range(1,l):
             dp[i][j]=small(vecPlus(dp[i-1][j], A[i][j]), vecPlus(dp[i][j-1], A[i][j]))
-    if dp[-1][-1][2]>0:
-        return 1
     return min(dp[-1][-1][0], dp[-1][-1][1])
