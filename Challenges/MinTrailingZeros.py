@@ -1,4 +1,4 @@
-# Award link: https://app.codility.com/cert/view/certGU5JT9-7C8B9BP3PX4J7GWE/
+# Award link: https://app.codility.com/cert/view/certYFT8QV-9XABHHN9Z92MSM2Y/
 
 def solution(A):
     def containZero(A):
@@ -14,15 +14,6 @@ def solution(A):
             return x
         return y
     def trans(n):
-        r2, r5=0,0
-        while n%5==0:
-            r5+=1
-            n=n//5
-        while n%2==0:
-            r2+=1
-            n=n//2
-        return [r2, r5]
-    def trans2(n):
         if n==0:
             return [float('inf'), float('inf')]
         r2, r5=0,0
@@ -35,14 +26,9 @@ def solution(A):
         return [r2, r5]
     l=len(A)
     contZero=containZero(A)
-    if contZero:
-        for i in range(l):
-            for j in range(l):
-                A[i][j]=trans2(A[i][j])
-    else:
-        for i in range(l):
-            for j in range(l):
-                A[i][j]=trans(A[i][j])
+    for i in range(l):
+        for j in range(l):
+            A[i][j]=trans(A[i][j])
     dp=[[0]*l for _ in range(l)]
     tmp=[0,0]
     for i in range(l):
