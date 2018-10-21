@@ -1,4 +1,4 @@
-# Award link: https://app.codility.com/cert/view/certPGKE4Q-PRH8HW3GUWV9QRZK/
+# Award link: https://app.codility.com/cert/view/certGU5JT9-7C8B9BP3PX4J7GWE/
 
 def solution(A):
     def containZero(A):
@@ -10,16 +10,15 @@ def solution(A):
     def vecPlus(x, y):
         return [x[0]+y[0], x[1]+y[1]]
     def small(x, y):
-        xc, yc=min(x[0], x[1]), min(y[0], y[1])
-        if xc<=yc:
+        if min(x[0], x[1])<=min(y[0], y[1]):
             return x
         return y
     def trans(n):
         r2, r5=0,0
-        while n!=0 and n%5==0:
+        while n%5==0:
             r5+=1
             n=n//5
-        while n!=0 and n%2==0:
+        while n%2==0:
             r2+=1
             n=n//2
         return [r2, r5]
@@ -27,10 +26,10 @@ def solution(A):
         if n==0:
             return [float('inf'), float('inf')]
         r2, r5=0,0
-        while n!=0 and n%5==0:
+        while n%5==0:
             r5+=1
             n=n//5
-        while n!=0 and n%2==0:
+        while n%2==0:
             r2+=1
             n=n//2
         return [r2, r5]
@@ -57,7 +56,5 @@ def solution(A):
         for j in range(1,l):
             dp[i][j]=small(vecPlus(dp[i-1][j], A[i][j]), vecPlus(dp[i][j-1], A[i][j]))
     if contZero:
-        if min(dp[-1][-1][0], dp[-1][-1][1])==0:
-            return 0
-        return 1
+        return min(1, dp[-1][-1][0], dp[-1][-1][1])
     return min(dp[-1][-1][0], dp[-1][-1][1])
