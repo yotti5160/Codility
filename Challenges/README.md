@@ -1,4 +1,4 @@
-My Codility challenges award links:
+My Codility challenge award links:
 
 * Digital Gold Challenge(golden award): https://app.codility.com/cert/view/certMS4YQA-ZE3FTH4ST49YCHMY/
 * Grand Challenge Challenge(silver award): https://app.codility.com/cert/view/certRPPUWJ-ZDEKH4JGW4NFGRWA/
