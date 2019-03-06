@@ -5,3 +5,8 @@ My Codility challenges award links:
 * Future Mobility Challenge(golden award): https://app.codility.com/cert/view/certH6AWY6-E7CWJSTMVE9RFQRT/
 * Bromum 2018 Challenge(golden award): https://app.codility.com/cert/view/cert4URQR8-RBY9NCWXXFUPUCK6/
 * Krypton 2018 Challenge(golden award): https://app.codility.com/cert/view/cert5J2CHJ-226ENHJM9F9DSQWM/
+* Arsenicum 2018 Challenge(golden award): https://app.codility.com/cert/view/cert7EF22A-K5UKX2Y75NXYEKRW/
+* Rubidium 2018 Challenge(golden award): https://app.codility.com/cert/view/certW4H8XZ-8T7Y3SJT6XK785AQ/
+* Strontium  2019 Challenge(golden award): https://app.codility.com/cert/view/cert6ECBY6-ES2FJAC9B9XCEP23/
+* Yttrium  2019 Challenge(golden award): https://app.codility.com/cert/view/certX36HSH-MU6YZTPSF4HVC2FH/
+* Zirconium 2019 Challenge(golden award): https://app.codility.com/cert/view/cert5RYDQT-Q6UP8JZPYJBCVBF5/
