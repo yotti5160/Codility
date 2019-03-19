@@ -1,5 +1,5 @@
 My Codility challenge award links:  
-(you can see my code by click the link and click "Review detailed assessment" in the award page)
+(You can see my code by click the link and click "Review detailed assessment" in the award page)
 
 * Digital Gold Challenge(golden award): https://app.codility.com/cert/view/certMS4YQA-ZE3FTH4ST49YCHMY/
 * Grand Challenge Challenge(silver award): https://app.codility.com/cert/view/certRPPUWJ-ZDEKH4JGW4NFGRWA/
