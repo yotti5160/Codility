@@ -10,3 +10,4 @@ My Codility challenge award links:
 * Strontium  2019 Challenge(golden award): https://app.codility.com/cert/view/cert6ECBY6-ES2FJAC9B9XCEP23/
 * Yttrium  2019 Challenge(golden award): https://app.codility.com/cert/view/certX36HSH-MU6YZTPSF4HVC2FH/
 * Zirconium 2019 Challenge(golden award): https://app.codility.com/cert/view/cert5RYDQT-Q6UP8JZPYJBCVBF5/
+* Niobium 2019 Challenge(golden award): https://app.codility.com/cert/view/cert2Y98KK-VCZTS2PXGCG9EAUF/
