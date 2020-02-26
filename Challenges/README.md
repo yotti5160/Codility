@@ -15,3 +15,4 @@ My Codility challenge award links:
 * Technetium 2019 Challenge(golden award): https://app.codility.com/cert/view/certKPQFYX-KH3D6R2BQP3YVS8A/
 * Ruthenium 2019 Challenge(golden award): https://app.codility.com/cert/view/certKRFN46-WVZPGHZDZMYVY9ZG/
 * Rhodium 2019 Challenge(golden award): https://app.codility.com/cert/view/certZNGZ9J-UZZ92R6K56HHWBRX/
+* Palladium 2020 Challenge(golden award): https://app.codility.com/cert/view/certFTR8AF-T7T3EQM37K7MVNYT/
